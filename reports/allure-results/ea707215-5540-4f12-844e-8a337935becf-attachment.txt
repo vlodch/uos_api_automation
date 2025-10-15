@@ -1,0 +1,12 @@
+[2025-10-15 14:12:08,078] [DEBUG] api.uos_client: POST http://localhost:8080/api/users
+[2025-10-15 14:12:08,078] [DEBUG] api.uos_client: Payload: {'name': 'TestUser'}
+[2025-10-15 14:12:08,090] [DEBUG] api.uos_client: Response: 201 - {"id":"1","name":"TestUser"}
+
+[2025-10-15 14:12:08,090] [DEBUG] api.uos_client: GET http://localhost:8080/api/users/1
+[2025-10-15 14:12:08,092] [DEBUG] api.uos_client: Response: 200 - {"id":"1","name":"TestUser"}
+
+[2025-10-15 14:12:08,092] [DEBUG] api.uos_client: DELETE http://localhost:8080/api/users/1
+[2025-10-15 14:12:08,094] [DEBUG] api.uos_client: Response: 204 - 
+[2025-10-15 14:12:08,094] [DEBUG] api.uos_client: GET http://localhost:8080/api/users/1
+[2025-10-15 14:12:08,096] [DEBUG] api.uos_client: Response: 404 - {"error":"Not found"}
+

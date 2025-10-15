@@ -1,0 +1,11 @@
+[35mDEBUG   [0m api.uos_client:uos_client.py:17 POST http://localhost:8080/api/users
+[35mDEBUG   [0m api.uos_client:uos_client.py:19 Payload: {'name': 'TestUser'}
+[35mDEBUG   [0m api.uos_client:uos_client.py:25 Response: 201 - {"id":"1","name":"TestUser"}
+
+[35mDEBUG   [0m api.uos_client:uos_client.py:17 GET http://localhost:8080/api/users/1
+[35mDEBUG   [0m api.uos_client:uos_client.py:25 Response: 200 - {"id":"1","name":"TestUser"}
+
+[35mDEBUG   [0m api.uos_client:uos_client.py:17 DELETE http://localhost:8080/api/users/1
+[35mDEBUG   [0m api.uos_client:uos_client.py:25 Response: 204 - 
+[35mDEBUG   [0m api.uos_client:uos_client.py:17 GET http://localhost:8080/api/users/1
+[35mDEBUG   [0m api.uos_client:uos_client.py:25 Response: 404 - {"error":"Not found"}

@@ -1,0 +1,2 @@
+[35mDEBUG   [0m api.uos_client:uos_client.py:17 POST http://localhost:8080/api/users
+[35mDEBUG   [0m api.uos_client:uos_client.py:19 Payload: {'name': 'TestUser'}

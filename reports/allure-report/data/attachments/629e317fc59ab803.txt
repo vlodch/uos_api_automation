@@ -1,0 +1,2 @@
+[2025-10-15 12:42:00,920] [DEBUG] api.uos_client: POST http://localhost:8080/api/users
+[2025-10-15 12:42:00,920] [DEBUG] api.uos_client: Payload: {'name': 'TestUser'}
