@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # UosClient Testing Framework
 
 This project is designed to provide a robust testing framework featuring an API client, comprehensive test suites, 
@@ -109,4 +108,3 @@ The project is organized to promote maintainability, clarity, and ease of use:
 =======
 # uos_api_automation
 QA automation framework, mock server, README with instructions Ubiquiti Inc.
->>>>>>> 3dfeff9ee974d4e1c64ceea47201e6da3b9ae0b5
