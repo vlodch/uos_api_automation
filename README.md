@@ -18,8 +18,8 @@ Before running the tests, Python 3.7 or higher installed.
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/vlodch/uos_api_automation.git
+   cd uos_api_automation
    ```
 
 2. It is recommended to create and activate a virtual environment:
