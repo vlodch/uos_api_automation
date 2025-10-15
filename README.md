@@ -88,8 +88,7 @@ Allure is used to generate detailed and visually appealing test reports.
    allure serve allure-results
    ```
 
-   This will open a web browser displaying the test report. If you don't have Allure installed, follow the official installation guide at [Allure Framework](https://docs.qameta.io/allure/).
-
+   This will open a web browser displaying the test report.
 ## Framework Structure
 
 The project is organized to promote maintainability, clarity, and ease of use:
