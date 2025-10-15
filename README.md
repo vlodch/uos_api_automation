@@ -103,6 +103,7 @@ The project is organized to promote maintainability, clarity, and ease of use:
 
 - **Mock Server (`mock_server.py`)**: A lightweight server that mimics the real API's behavior. It is used during testing to provide predictable responses, enabling reliable and isolated tests without depending on external systems.
 
+- **Report Example** (https://github.com/vlodch/uos_api_automation/blob/main/Report_example_results.png)
 ---
 # uos_api_automation
 QA automation framework, mock server, README with instructions Ubiquiti Inc.
